@@ -9,7 +9,7 @@ public class UI_CurveController : MonoBehaviour
 
     [SerializeField] private LissajousCurve _lissajousCurve;
     [SerializeField, Header("Sliders")] private Slider XSlider, YSlider, αSlider, βSlider, deltaSlider;
-    [SerializeField] private TMP_Text XCurrentSliderValue, YCurrentSliderValue, αCurrentSliderValue, βCurrentSliderValue, deltaCurrentSliderValue;
+    [SerializeField, Header("Current Values")] private TMP_Text XCurrentSliderValue, YCurrentSliderValue, αCurrentSliderValue, βCurrentSliderValue, deltaCurrentSliderValue;
 
     private void OnEnable()
     {
