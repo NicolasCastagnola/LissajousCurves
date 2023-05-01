@@ -20,4 +20,9 @@ Explore the beauty of Lissajous curves with this mesmerizing visualizer. Lissajo
 
 ## License
 
-This project is licensed under the [Apache License 2.0]
+- This project is licensed under the [Apache License 2.0]
+
+## References
+
+- All reference materials can be found in the 'Reference' folder.
+
