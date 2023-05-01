@@ -24,5 +24,5 @@ Explore the beauty of Lissajous curves with this mesmerizing visualizer. Lissajo
 
 ## References
 
-- All reference materials can be found in the 'Reference' folder.
+- All reference materials can be found in the 'References' folder.
 
