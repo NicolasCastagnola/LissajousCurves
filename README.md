@@ -1,7 +1,7 @@
 
 # Lissajous Curves Visualizer
 
-# LissajousCurves![Capture](https://user-images.githubusercontent.com/49046616/235416375-cb159b59-d19d-46e0-921f-994fb8a942d8.PNG)
+#[Capture](https://user-images.githubusercontent.com/49046616/235416375-cb159b59-d19d-46e0-921f-994fb8a942d8.PNG)
 
 Explore the beauty of Lissajous curves with this mesmerizing visualizer. Lissajous curves are complex, yet elegant, geometric patterns formed by the interaction of two perpendicular harmonic motions. In this project, you can create your own unique Lissajous curves by adjusting the frequencies and phases of these harmonic motions.
 
