@@ -14,10 +14,6 @@ Explore the beauty of Lissajous curves with this mesmerizing visualizer. Lissajo
 - Create Lissajous curves by adjusting frequencies and phases of harmonic motions.
 - Sleek and minimalist interface.
 
-## Usage
-
-- Adjust the sliders to change the frequencies and phases of the harmonic motions.
-
 ## License
 
 - This project is licensed under the [Apache License 2.0]
