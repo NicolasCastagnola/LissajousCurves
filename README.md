@@ -7,17 +7,15 @@
 
 Explore the beauty of Lissajous curves with this mesmerizing visualizer. Lissajous curves are complex, yet elegant, geometric patterns formed by the interaction of two perpendicular harmonic motions. In this project, you can create your own unique Lissajous curves by adjusting the frequencies and phases of these harmonic motions.
 
+- You can also play the game online at https://nxyz.itch.io/lissajous-curves-visualizer
+
 ## Features
 
 - Create Lissajous curves by adjusting frequencies and phases of harmonic motions.
 - Sleek and minimalist interface.
-- Save your favorite curves to your gallery.
-- Race against the clock to create curves that match specific shapes or patterns.
-- Multiple levels of challenges.
 
 ## Usage
 
-- You can also play the game online at https://nxyz.itch.io/lissajous-curves-visualizer
 - Adjust the sliders to change the frequencies and phases of the harmonic motions.
 
 ## Contributing
