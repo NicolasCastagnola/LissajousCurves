@@ -5,21 +5,13 @@ public class LissajousCurve : MonoBehaviour
     private Vector3 finalPosition;
     
     [Header("EQUATION VALUES")]
-    [Range(0,20)] public float X = 4f;
-    [Range(0,20)] public float Y = 4f;
-    [Range(0,20)] public float α = 5f;
-    [Range(0,20)] public float β = 4f;
-    
-    [Range(0,20)] public float delta = 2.3f;
-    
+    public float X = 4f;
+    public float Y = 2f;
+    public float α = 4f;
+    public float β = 6f;
+    public float delta = 2f;
     public TrailRenderer TrailRenderer { get; private set; }
-    
-    public void Start()
-    {
-        TrailRenderer = GetComponent<TrailRenderer>();
-        
-        CalculateStandardLissajousCurve();
-    }
+    public void Start() => TrailRenderer = GetComponent<TrailRenderer>();
     public void Update() => CalculateStandardLissajousCurve();
     private void CalculateStandardLissajousCurve()
     {

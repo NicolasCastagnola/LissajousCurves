@@ -6,6 +6,7 @@ using System.Globalization;
 public class UI_CurveController : MonoBehaviour
 {
     [SerializeField] private Toggle clearTrailToggle;
+    [SerializeField] private TMP_Text version;
 
     [SerializeField] private LissajousCurve _lissajousCurve;
     [SerializeField, Header("Sliders")] private Slider XSlider, YSlider, αSlider, βSlider, deltaSlider;
@@ -13,6 +14,8 @@ public class UI_CurveController : MonoBehaviour
 
     private void OnEnable()
     {
+        version.text = $" VER. {Application.version}";
+        
         XSlider.onValueChanged.AddListener(x => {
             XCurrentSliderValue.text = x.ToString("0.0",CultureInfo.InvariantCulture);
             _lissajousCurve.X = x;
