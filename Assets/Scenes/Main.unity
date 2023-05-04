@@ -766,7 +766,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 3
-  m_Spacing: -50
+  m_Spacing: -26.02
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -1901,7 +1901,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 1
+  m_ChildAlignment: 4
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
@@ -4548,7 +4548,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 98268777}
   m_HandleRect: {fileID: 810031847}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: -20
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: 0
@@ -5882,8 +5882,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedMultiplier: 1
   trailDuration: 1
-  X: 0
-  Y: 0
+  A: 0
+  B: 0
   "\u03B1": 0
   "\u03B2": 0
   delta: 0
@@ -6223,7 +6223,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 267926973}
   m_HandleRect: {fileID: 1459251032}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: -20
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: 0
@@ -7526,7 +7526,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1292225417}
   m_HandleRect: {fileID: 647029205}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: -20
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: 0
@@ -7619,7 +7619,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 576226348}
   m_HandleRect: {fileID: 1315820492}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: -20
   m_MaxValue: 20
   m_WholeNumbers: 0
   m_Value: 0

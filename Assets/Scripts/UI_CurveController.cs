@@ -18,10 +18,13 @@ public class UI_CurveController : MonoBehaviour
 
     private void OnEnable()
     {
-        version.text = $" VER. {Application.version}";
+        //DROPDOWN
+        trailDropdown.ClearOptions();
+        string[] enumNames = Enum.GetNames(typeof(TrailPreset));
+        trailDropdown.AddOptions(new List<string>(enumNames));
+        trailDropdown.onValueChanged.AddListener(x => _lissajousCurve.TrailRenderer.colorGradient = _colorGradients[x]);
         
-        InitializeDropdown();
-        
+        //SLIDERS
         trailTime.onValueChanged.AddListener(x => 
         {
             trailRefreshCurrentSliderValue.text = x.ToString("0.0", CultureInfo.InvariantCulture);
@@ -39,14 +42,14 @@ public class UI_CurveController : MonoBehaviour
         XSlider.onValueChanged.AddListener(x => 
         {
             XCurrentSliderValue.text = x.ToString("0.0", CultureInfo.InvariantCulture);
-            _lissajousCurve.X = x;
+            _lissajousCurve.A = x;
             
             if (clearTrailToggle.isOn) _lissajousCurve.TrailRenderer.Clear();
         });
         YSlider.onValueChanged.AddListener(x =>
         {
             YCurrentSliderValue.text = x.ToString("0.0", CultureInfo.InvariantCulture);
-            _lissajousCurve.Y = x;
+            _lissajousCurve.B = x;
             
             if (clearTrailToggle.isOn) _lissajousCurve.TrailRenderer.Clear();
         });
@@ -73,13 +76,7 @@ public class UI_CurveController : MonoBehaviour
             if (clearTrailToggle.isOn) _lissajousCurve.TrailRenderer.Clear();
         });
 
-    }
- 
-    private void InitializeDropdown()
-    {
-        trailDropdown.ClearOptions();
-        string[] enumNames = Enum.GetNames(typeof(TrailPreset));
-        trailDropdown.AddOptions(new List<string>(enumNames));
-        trailDropdown.onValueChanged.AddListener(x => _lissajousCurve.TrailRenderer.colorGradient = _colorGradients[x]);
+        //VERSION
+        version.text = $" VER. {Application.version}";
     }
 }
