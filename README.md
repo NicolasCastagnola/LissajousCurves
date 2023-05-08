@@ -1,7 +1,7 @@
 
 # Lissajous Curves Visualizer
 
-![1](https://user-images.githubusercontent.com/49046616/236720584-8626169d-04f7-488a-a08f-4aa91c53a09e.png)
+![Capture](https://user-images.githubusercontent.com/49046616/236720624-3bcd549e-2bf8-4437-b04b-10ae63cec276.PNG)
 
 
 ## Description
