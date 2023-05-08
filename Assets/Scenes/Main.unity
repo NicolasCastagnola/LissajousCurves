@@ -5699,7 +5699,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1416524883
 GameObject:
   m_ObjectHideFlags: 0
@@ -5881,7 +5881,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMultiplier: 1
-  trailDuration: 1
   A: 0
   B: 0
   "\u03B1": 0
