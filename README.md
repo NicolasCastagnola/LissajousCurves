@@ -1,10 +1,7 @@
 
 # Lissajous Curves Visualizer
 
-![Capture](https://user-images.githubusercontent.com/49046616/235416788-e4aa5d25-a0d8-4bf6-9da2-58e33bd72404.PNG)
-
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=a6911BX1oog" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a6911BX1oog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Description
 
